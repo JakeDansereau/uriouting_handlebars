@@ -1,0 +1,228 @@
+.backstyle{
+	background-color: rgb(233,211,189);
+	width: auto; 
+	margin: 0px; 
+}
+
+
+.navbar{
+word-spacing: 50px; 
+border-width: 5px;
+border-style: solid; 
+background-color: white;
+padding-top: 15px;
+margin-top: 0px; 
+padding-left:0px;
+padding-right:0px;
+font-family: arial, georgia; 
+color: gray; 
+}
+
+.navigation{
+	text-decoration: none; 
+	color: black; 
+	text-shadow: 1px 1px 1px white; 
+}
+
+
+
+.pageHeadings{
+	font-family: Arial, sans-serif;
+	color: rgb(245,245,230);
+	text-shadow: 2px 2px 2px gray; 
+}
+
+.about{
+	background: rgb(255,255,220);
+	border-width: 2px; 
+	border-color: gray; 
+	border-style: solid;
+	font-size: 24px;
+	font-family: Arial, Georgia, sans-serif;
+	margin: 20px 20px 20px 20px;
+	height: 300px;
+	width: 800px;
+	display: flex;
+	flex-direction: column;	
+}
+/*flex styling*/
+.flex_parent{
+	display:flex; 
+	flex-direction: row; 
+	justify-content: space-around; 
+}
+.flex_parent_column{
+	display:flex; 
+	flex-direction: column; 
+	justify-content:space-around; 
+	padding-left: 40%; 
+}
+#inner_flex_left{ /*group photo */
+	display:flex;
+	flex-direction: row; 
+	width: 30%;
+	height: 30%; 
+	float: left; 
+}
+
+#inner_flex_right{
+	display:flex; 
+	flex-direction: column; 
+	justify-content: space-around; 
+}
+.merch_flex{
+	display:flex; 
+	flex-direction: column; 
+	justify-content: space-around;
+}
+
+
+.merchpics{
+	height: 30%; 
+	width: 30%;
+	
+}
+
+.merchPrice{
+	background: rgb(255,255,220);
+	border-width: 2px; 
+	border-color: gray; 
+	border-style: solid;
+	font-size: 20px;
+	font-family: Arial, Georgia, sans-serif;
+	margin: 5px;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	
+}
+.merchDescript{
+	background: rgb(255,255,220);
+	border-width: 2px; 
+	border-color: gray; 
+	border-style: solid;
+	font-size: 20px;
+	font-family: Arial, Georgia, sans-serif;
+	margin: 5px;
+	height: 60px;
+	width: 150px;
+	display: flex;
+	flex-direction: column;	
+	text-align: center; 
+}
+
+
+	
+
+/*end of flex styling */
+
+.mediapics{
+	height:20px;
+	width:20px; 
+	
+}
+
+.footdefault{
+	background-color: rgb(245,245,245);
+	padding-bottom: 30px; 
+	text-align: center; 
+	font-weight: 100; 
+	border-top: 5px solid gray; 
+	font-family: arial, georgia, sans-serif; 
+	padding: 0.4cm;
+	margin-top: 4cm; 
+}
+
+
+#section{
+	width: 200px;
+	height: 100px; 	
+}
+
+
+#homeImage{
+	margin: 0px 0px 0px 0px; 
+	height: 10%; 
+	width: auto;
+	background-size: 100% auto; 
+	background-position-y: -70%; 
+}
+#alternating{
+	padding-left: 50%;  
+}
+
+.logo{
+	height: 30%; 
+	width: 30%; 
+	
+}
+
+#vermont{
+	width: 30%;
+	height: 30%; 
+}
+
+/*Events section */
+
+#eventstable{
+	background-color: rgb(255,255,230);
+	text-align: center;
+	margin: 0px auto;
+	border: 2px solid; 
+}
+#eventsHeader{
+	text-align: center;
+	text-shadow: 2px 2px 2px gray; 
+	font-family: arial, georgia, sans-serif;
+	color: rgb(245,245,230);
+}
+h2{
+	text-align: center;
+	text-shadow: 2px 2px 2px gray; 
+	font-family: arial, georgia, sans-serif;
+	color: gray;  
+}
+tr, th{
+	padding: 20px 20px 20px 20px;
+	font-family: arial, georiga, sans-serif; 
+	font-size: 25px; 
+	color: gray;
+	border-color: gray;
+	border-style: solid; 
+	
+}
+#addEvent{
+	margin:auto; 
+	width: 50%; 
+}
+
+/*Photos section styling*/
+#tripHeadings{
+	font-family: Arial, sans-serif;
+	color: rgb(245,245,230);
+	text-shadow: 2px 2px 2px gray;
+}
+.flex_image_section{
+	display:flex; 
+	flex-direction: row; 
+	justify-content: space-around; 
+}
+.photobatch{
+	width: 30%;
+	height: 30%; 
+}
+.faqdescript{
+	background: rgb(255,255,220);
+	border-width: 2px; 
+	border-color: gray; 
+	border-style: solid;
+	font-size: 24px;
+	font-family: Arial, Georgia, sans-serif;
+	margin: 20px 20px 20px 20px;
+	height: 300px;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 25%; 
+}
+/*faqs section styling */ 
